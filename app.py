@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 from flask import Flask, render_template, redirect
 from settings import DEBUG, URLS
 
