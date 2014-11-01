@@ -9,7 +9,10 @@ app.debug = DEBUG
 @app.route('/', methods=['GET'])
 def index():
     #return render_template('index.html')
-    return 'Welcome to WutBot! Under Totally Awesome Construction.'
+    return '''
+    <p>Welcome to WutBot! Under Totally Awesome Construction.</p>
+    <p><a href="/blog" target="_blank">Check out the blog</a></a>
+    '''
 
 
 @app.route('/blog', methods=['GET'])
