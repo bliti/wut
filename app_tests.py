@@ -13,7 +13,7 @@ class AppTestCase(unittest.TestCase):
     def test_index_page(self):
         r = self.app.get('/')
         self.assertEquals('200 OK', r.status)
-        self.assertTrue('hello, Heroku.' in r.data)
+        self.assertTrue('WutBot' in r.data)
 
 
     def test_blog_redirect(self):
