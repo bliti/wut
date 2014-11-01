@@ -11,7 +11,9 @@ def index():
     #return render_template('index.html')
     return '''
     <p>Welcome to WutBot! Under Totally Awesome Construction.</p>
-    <p><a href="/blog" target="_blank">Check out the blog</a></a>
+    <p><a href="/blog" target="_blank">Check out the blog</a></p>
+    <p><a href="/twitter" target="_blank">** Talk to me on Twitter **</a></p>
+    
     '''
 
 
