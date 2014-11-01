@@ -9,7 +9,7 @@ app.debug = DEBUG
 @app.route('/', methods=['GET'])
 def index():
     #return render_template('index.html')
-    return 'hello, Heroku.'
+    return 'Welcome to WutBot! Under Totally Awesome Construction.'
 
 
 @app.route('/blog', methods=['GET'])
